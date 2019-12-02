@@ -214,3 +214,20 @@ The first line of input contains a number t denoting the number of test cases. T
 Print the answer for each test case on a new line. 
 <h2>Constraints</h2>
 1 <= t <= 20 1 <= n <= 1000 1 <= ai <= 1000000000 
+
+# remove friends
+
+After getting her PhD, Christie has become a celebrity at her university, and her Facebook profile is full of friend requests. Being the nice girl, she is, Christie has accepted all the requests. 
+Now Kuldeep is jealous of all the attention she is getting from other guys, so he asks her to delete some of the guys from her friend list. 
+To avoid a 'scene', Christie decides to remove some friends from her friend list, since she knows the popularity of each of the friend she has, she uses the following algorithm to delete a friend. 
+Algorithm Delete(Friend): 
+DeleteFriend=false for i = 1 to Friend.length-1 
+if (Friend[i].popularity < Friend[i+1].popularity) 
+delete i th friend DeleteFriend=true break if(DeleteFriend == false) delete the last friend. 
+<h2>Input Format </h2>
+First line contains T number of test cases. First line of each test case contains N, the number of friends Christie currently has and K ,the number of friends Christie decides to delete. Next lines contains popularity of her friends separated by space. 
+<h2>Output Format</h2> For each test case print N-K numbers which represent popularity of Christie friend's after deleting K friends. 
+</h2>Constraints</h2>
+1<=T<=1000 
+1<=N<=100000
+0<=K< N 0<=popularity_of_friend<=100 
