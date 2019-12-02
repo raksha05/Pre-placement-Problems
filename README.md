@@ -227,7 +227,7 @@ delete i th friend DeleteFriend=true break if(DeleteFriend == false) delete the 
 <h2>Input Format </h2>
 First line contains T number of test cases. First line of each test case contains N, the number of friends Christie currently has and K ,the number of friends Christie decides to delete. Next lines contains popularity of her friends separated by space. 
 <h2>Output Format</h2> For each test case print N-K numbers which represent popularity of Christie friend's after deleting K friends. 
-</h2>Constraints</h2>
+<h2>Constraints</h2>
 1<=T<=1000 
 1<=N<=100000
 0<=K< N 0<=popularity_of_friend<=100 
