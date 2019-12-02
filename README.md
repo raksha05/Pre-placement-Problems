@@ -188,3 +188,14 @@ The first line contains an integer as N input. Next N-1 lines contain a pair of 
 <h2>Output Format</h2>
 In the output, you need to print two integers separated by space which denote the nodes between which you can add the edge so as to maximize the length of the cycle in the tree. 
 
+# monk watching
+
+Once Monk was watching a fight between an array and a tree, of being better. Tree got frustrated and converted that array into a Binary Search Tree by inserting the elements as nodes in BST, processing elements in the given order in the array. Now Monk wants to know the height of the created Binary Search Tree. 
+Help Monk for the same. 
+<h2>Note:</h2> 
+1) In Binary Search Tree, the left sub-tree contains only nodes with values less than or equal to the parent node; the right sub-tree contains only nodes with values greater than the parent node. 
+2) Binary Search Tree with one node, has height equal to 1. 
+<h2>Input Format </h2>
+The first line will consist of 1 integer N, denoting the number of elements in the array. In next line, there will be N space separated integers, A[i], where 1 ≤ I ≤ N, denoting the elements of array. 
+<h2>Output Format</h2>
+Print the height of the created Binary Search Tree. 
