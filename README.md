@@ -168,10 +168,14 @@ Output Format Print N lines. The ith line should contain 2 space separated integ
 
 on the ith day and the second integer denotes the number of "Ghost of the Day" titles won by this ghost until the end of the ith day of the competition.
 
-Constraints 1<=N<=10^5 1<=M<=10^9
+<h2>Constraints</h2>
+1<=N<=10^5 1<=M<=10^9
 
-SAMPLE INPUT 1<=N<=10^5 1<=M<=10^9
+<h2>SAMPLE INPUT</h2>
+1<=N<=10^5 1<=M<=10^9
 
-SAMPLE INPUT 7 5 1 3 1 3 2 2 2
+<h2>SAMPLE INPUT</h2>
+7 5 1 3 1 3 2 2 2
 
-SAMPLE OUTPUT 1 1 3 1 1 2 3 2 3 2 3 2 2 3
+<h2>SAMPLE OUTPUT</h2> 
+1 1 3 1 1 2 3 2 3 2 3 2 2 3
